@@ -52,19 +52,4 @@ Example configuration:
 ```
 Place your actual credentials and network information here.
 
-## Running the Application
 
-1. Ensure the configuration files are in the project root.
-2. Build and run the Go project:
-   ```
-   go build -o LightControl
-   ./LightControl
-   ```
-3. The application will load configurations, calculate the desired brightness based on the current time, and update the MarsHydro lamp accordingly.
-
-## Additional Details
-
-- The timer configuration file is validated during loading. Ensure that `EndHour` is greater than `StartHour + PlateauHour` and that `StepSize` is a multiple of 5.
-- The API package handles login, brightness adjustments, and token management.
-
-// ...existing code or additional instructions...
