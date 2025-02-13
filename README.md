@@ -15,7 +15,7 @@ This project controls the brightness of a MarsHydro lamp based on a timer config
 ### Timer Configuration (timer.json)
 Create or modify the file at:
 ```
-/c:/Users/Story/source/code/Go_MarsHydro_LightControl/timer.json
+/Go_MarsHydro_LightControl/timer.json
 ```
 Example configuration:
 ```json
@@ -38,7 +38,7 @@ Example configuration:
 ### Account Configuration (account.json)
 Create or modify the file at:
 ```
-/c:/Users/Story/source/code/Go_MarsHydro_LightControl/account.json
+/Go_MarsHydro_LightControl/account.json
 ```
 Example configuration:
 ```json
