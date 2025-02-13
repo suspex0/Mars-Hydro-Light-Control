@@ -1,0 +1,8 @@
+{
+  "StartHour": 8,
+  "PlateauHour": 6,
+  "PlateauOffset": -1,
+  "Brightness": 100,
+  "EndHour": 20,
+  "StepSize": 10
+}
